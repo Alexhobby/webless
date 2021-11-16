@@ -23,7 +23,7 @@ const USER_CSS_JS = [
 ];
 
 
-use core\base\exceptions\RouteException;
+use base\exceptions\RouteException;
 
 
 function inc_class($class_name)

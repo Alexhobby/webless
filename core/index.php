@@ -5,7 +5,7 @@ session_start();
 require_once 'config.php';
 require_once './base/settings/internal_settings.php';
 
-use core\base\exceptions\RouteException;
+use base\exceptions\RouteException;
 use core\base\controllers\RouteController;
 
 echo 'we are here';
