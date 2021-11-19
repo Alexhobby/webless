@@ -1,6 +1,9 @@
 <?php
 
-use core\base\controllers;
+namespace core\base\controllers;
+
+use core\base\settings\Settings;
+use core\base\settings\ShopSettings;
 
 class RouteController
 {
